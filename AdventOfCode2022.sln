@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day1_CalorieCounting", "puz
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day2_RockPaperScissors", "puzzles\Day2_RockPaperScissors\Day2_RockPaperScissors.csproj", "{54A31379-857A-4AE0-B6EC-97982764DF02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day3_RucksackReorganization", "puzzles\Day3_RucksackReorganization\Day3_RucksackReorganization.csproj", "{EAE89B29-04EB-4B8C-81E1-F99148D5C4F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day3_RucksackReorganization", "puzzles\Day3_RucksackReorganization\Day3_RucksackReorganization.csproj", "{EAE89B29-04EB-4B8C-81E1-F99148D5C4F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day4_CampCleanup", "puzzles\Day4_CampCleanup\Day4_CampCleanup.csproj", "{926B28D8-66A1-425C-AF0C-B476CEE2041E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{EAE89B29-04EB-4B8C-81E1-F99148D5C4F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAE89B29-04EB-4B8C-81E1-F99148D5C4F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAE89B29-04EB-4B8C-81E1-F99148D5C4F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{926B28D8-66A1-425C-AF0C-B476CEE2041E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{926B28D8-66A1-425C-AF0C-B476CEE2041E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{926B28D8-66A1-425C-AF0C-B476CEE2041E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{926B28D8-66A1-425C-AF0C-B476CEE2041E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
