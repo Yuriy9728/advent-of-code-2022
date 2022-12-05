@@ -18,12 +18,12 @@ Dictionary<char, Result> charResults = new()
 int firstResult = 0;
 int secondResult = 0;
 
-await foreach (string line in File.ReadLinesAsync("puzzleInput.txt"))
+foreach (string line in File.ReadLines("puzzleInput.txt"))
 {
     firstResult += GetScoreByShapes(charShapes[line.Last()], charShapes[line.First()]);
 }
 
-await foreach (string line in File.ReadLinesAsync("puzzleInput.txt"))
+foreach (string line in File.ReadLines("puzzleInput.txt"))
 {
     secondResult += GetScoreByResultAndShape(charResults[line.Last()], charShapes[line.First()]);
 }

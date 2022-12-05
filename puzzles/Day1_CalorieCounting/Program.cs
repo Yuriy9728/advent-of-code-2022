@@ -1,7 +1,7 @@
 ﻿int[] topThree = { 0, 0, 0 };
-
 var current = 0;
-await foreach (string line in File.ReadLinesAsync("calories.txt"))
+
+foreach (string line in File.ReadLines("calories.txt"))
 {
     if (int.TryParse(line, out int value))
     {

@@ -15,7 +15,7 @@ Dictionary<char, int> charCount = charCodes
 
 List<string> group = new();
 
-await foreach (string line in File.ReadLinesAsync("puzzleInput.txt"))
+foreach (string line in File.ReadLines("puzzleInput.txt"))
 {
     var compartments = line.Chunk(line.Length / 2);
     var item = Enumerable.Intersect(compartments.First(), compartments.Last()).Single();
@@ -24,7 +24,7 @@ await foreach (string line in File.ReadLinesAsync("puzzleInput.txt"))
 
 firstResult = charCount.Sum(keyValuePair => keyValuePair.Value);
 
-await foreach (string line in File.ReadLinesAsync("puzzleInput.txt"))
+foreach (string line in File.ReadLines("puzzleInput.txt"))
 {
     if (group.Count >= 3)
     {
