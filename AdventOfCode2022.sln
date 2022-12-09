@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day4_CampCleanup", "puzzles
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day5_SupplyStacks", "puzzles\Day5_SupplyStacks\Day5_SupplyStacks.csproj", "{7CBFEAA7-77D6-4F2D-91D4-C2AD8850859D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day6_TuningTrouble", "puzzles\Day6_TuningTrouble\Day6_TuningTrouble.csproj", "{F524F6DE-30C1-428F-8A1A-87EB55F720EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day6_TuningTrouble", "puzzles\Day6_TuningTrouble\Day6_TuningTrouble.csproj", "{F524F6DE-30C1-428F-8A1A-87EB55F720EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day7_NoSpaceLeftOnDevice", "puzzles\Day7_NoSpaceLeftOnDevice\Day7_NoSpaceLeftOnDevice.csproj", "{EE0BE8D0-AE86-4274-971D-6A44893B7ACA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{F524F6DE-30C1-428F-8A1A-87EB55F720EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F524F6DE-30C1-428F-8A1A-87EB55F720EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F524F6DE-30C1-428F-8A1A-87EB55F720EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE0BE8D0-AE86-4274-971D-6A44893B7ACA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE0BE8D0-AE86-4274-971D-6A44893B7ACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE0BE8D0-AE86-4274-971D-6A44893B7ACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE0BE8D0-AE86-4274-971D-6A44893B7ACA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

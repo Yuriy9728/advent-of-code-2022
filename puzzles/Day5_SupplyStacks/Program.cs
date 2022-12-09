@@ -84,7 +84,7 @@ IEnumerable<(int Count, int From, int To)> GetCargoCommands(StreamReader textRea
     while (!textReader.EndOfStream)
     {
         var line = textReader.ReadLine()!;
-        var numbers = line.Split(' ').Where(subStr => char.IsDigit(subStr[0])).Select(int.Parse).ToArray();
+        var numbers = line.Split(' ').Where(subStr => char.IsDigit(subStr[0])).Select(int.Parse).ToArray(); 
 
         yield return (numbers[0], numbers[1] - 1, numbers[2] - 1);
     }
